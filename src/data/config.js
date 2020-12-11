@@ -1,25 +1,18 @@
 module.exports = {
-  defaultTitle: 'John Doe',
+  defaultTitle: 'Kyle Plaugher',
   logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
-  author: 'John Doe',
+  author: 'Kyle Plaugher',
   url: 'https://portfolio.smakosh.com',
-  legalName: 'John Doe',
-  defaultDescription: 'I’m John and I’m a Backend & Devops engineer!',
+  legalName: 'Kyle Plaugher',
+  defaultDescription: 'I’m Kyle and I’m a Full Stack engineer!',
   socialLinks: {
-    twitter: 'http://www.twitter.com/smakosh',
-    github: 'https://github.com/smakosh',
-    linkedin: 'https://www.linkedin.com/in/ismail-ghallou-630149122/',
-    instagram: 'https://instagram.com/smakosh19',
-    youtube: 'https://www.youtube.com/user/smakoshthegamer',
-    google: 'https://plus.google.com/u/0/+IsmailSmakoshGhallou',
+    github: 'https://github.com/Kaplaugher',
+    linkedin: 'https://www.linkedin.com/in/kyle-plaugher-248987120/',
   },
   googleAnalyticsID: 'UA-88875900-4',
   themeColor: '#6b63ff',
   backgroundColor: '#6b63ff',
-  social: {
-    facebook: 'appId',
-    twitter: '@smakosh',
-  },
+
   address: {
     city: 'City',
     region: 'Region',
@@ -27,8 +20,8 @@ module.exports = {
     zipCode: 'ZipCode',
   },
   contact: {
-    email: 'email',
+    email: 'kaplaugher94@gmail.com',
     phone: 'phone number',
   },
-  foundingDate: '2018',
+  foundingDate: '2020',
 };

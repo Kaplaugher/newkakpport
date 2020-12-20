@@ -1,16 +1,36 @@
-import React, { useContext } from 'react';
+import React from 'react';
 
-import { ThemeContext } from 'providers/ThemeProvider';
 import { Container } from 'components/common';
+import { CardWrapper } from './styles';
 
 export const Projects = () => {
-  const { theme } = useContext(ThemeContext);
+  const panels = document.querySelectorAll('.panel');
+
+  function removeActiveClasses() {
+    panels.forEach(panel => {
+      panel.classList.remove('active');
+    });
+  }
+  panels.forEach(panel => {
+    panel.addEventListener('click', () => {
+      removeActiveClasses();
+      panel.classList.add('active');
+    });
+  });
 
   return (
     <Container>
-      <div>
-        <h1>Hello this is projects</h1>
-      </div>
+      <CardWrapper>
+        <div className="panel ">
+          <h3>Explore the World</h3>
+        </div>
+        <div className="panel ">
+          <h3>Explore the World</h3>
+        </div>
+        <div className="panel ">
+          <h3>Explore the World</h3>
+        </div>
+      </CardWrapper>
     </Container>
   );
 };

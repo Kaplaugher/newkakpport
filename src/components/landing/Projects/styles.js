@@ -9,8 +9,7 @@ export const CardWrapper = styled.div`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
-    border-radius: 50px;
+    height: 50vh;
     color: white;
     cursor: pointer;
     flex: 0.5;

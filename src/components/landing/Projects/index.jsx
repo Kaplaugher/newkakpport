@@ -20,6 +20,7 @@ export const Projects = () => {
 
   return (
     <Container>
+      <h1>Recent Projects</h1>
       <CardWrapper>
         <div className="panel ">
           <h3>Explore the World</h3>
